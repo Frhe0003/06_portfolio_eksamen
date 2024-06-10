@@ -5,7 +5,7 @@ img {
 }
 
 a {
-  color: white;
+  color: red;
 }
 
 body {
@@ -37,6 +37,22 @@ h1 {
   padding: 10px;
   color: white;
   font-size: 150px;
+}
+
+h3 {
+  font-family: "Rubik Mono One", monospace;
+  font-weight: 400;
+  font-style: normal;
+  display: block;
+  padding: 10px;
+  color: white;
+  font-size: 50px;
+  
+}
+
+footer {
+  align-items: center;
+
 }
 
 * {
@@ -112,11 +128,19 @@ nav {
   display: none;
 }
 
-footer {
-  color: #7c7ce8;
-}
-
 @media screen and (max-width: 800px) {
+  .menu a:hover {
+    color: #ffe4fb;
+  }
+
+  .mchead {
+    background-color: #ffe4fb;
+  }
+
+  .mcbody {
+    background-color: #ffe4fb;
+    padding: 20px;
+  }
   .menu {
     display: none;
   }
@@ -176,6 +200,11 @@ footer {
     padding-top: 50px;
     padding-bottom: 50px;
     font-family: "Rubik Mono One", monospace;
+    color: white;
+  }
+
+  h3 {
+    font-size: 20px;
   }
 }
 
@@ -316,10 +345,6 @@ body {
     margin-left: 200px;
   }
 
-  .uxp {
-    margin-top: -550px;
-  }
-
   .abillede3 {
     margin-top: -200px;
   }
@@ -330,8 +355,8 @@ body {
 
   .passionbillede4 {
     width: 400px;
-    margin-top: -400px;
-    margin-left: 100px;
+    grid-column: 2/3;
+    margin-top: -600px;
   }
 
   .passionbillede3 {
@@ -354,6 +379,14 @@ body {
 
   .mcbilleder {
     width: 500px;
+  }
+
+  .vsbillede2 {
+    margin-top: 50px;
+  }
+
+  .vsp {
+    margin-top: -50px;
   }
 }
 
@@ -384,4 +417,3 @@ ul {
   margin: 10px;
   line-height: 34px;
 }
-
