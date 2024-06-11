@@ -15,8 +15,6 @@ body {
 p {
   color: black;
   font-family: "Quicksand", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
   font-style: normal;
   font-size: 20px;
   margin: 10px;
@@ -37,6 +35,7 @@ h1 {
   padding: 10px;
   color: white;
   font-size: 150px;
+  margin: 10px;
 }
 
 h3 {
@@ -162,9 +161,9 @@ nav {
 
   nav.active .menu {
     display: block;
-    background-color: #cf91c6;
+    background-color: #ffe4fb;
     position: absolute;
-    top: 60px;
+    top: 100px;
     left: 0;
     width: 100%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -181,6 +180,7 @@ nav {
 
   h1 {
     font-size: 50px;
+    margin: 10px;
   }
 
   .lotte {
@@ -218,7 +218,6 @@ body {
   }
   h2 {
     font-family: "Rubik Mono One", monospace;
-    font-optical-sizing: auto;
     font-weight: bold;
     font-style: normal;
     color: white;
@@ -414,8 +413,6 @@ body {
 ul {
   color: black;
   font-family: "Quicksand", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
   font-style: normal;
   font-size: 20px;
   margin: 10px;
